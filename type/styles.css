@@ -1,0 +1,97 @@
+/* Type */
+
+body {
+	background-color: black;
+	mix-blend-mode: hard-light;
+    line-height: 1.3;
+    font-size: 1em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: right;
+
+}
+.new-color {
+	color: orange;
+	font-weight: 700;
+}
+.other-font {
+	font-family: 'Caveat', cursive;
+	text-decoration: line-through;
+	color: white;
+	opacity: 0.5;
+}
+
+
+h1 {
+    font-size: 10em;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 1em;
+    color: #770b41;
+    text-shadow: 2px 2px 8px pink;
+}
+
+.angled-text {
+	transform: rotate(20deg);
+
+
+}
+
+h2{
+	text-decoration-line: overline underline;
+	text-align: left;
+	
+	
+}
+.wordz{
+	color: orange;
+	background-color: #00bcd4;
+	border: double grey;
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+
+
+}
+
+.newword{
+	color: pink;
+	padding: 35px;
+	filter: drop-shadow(8px 8px 10px white);
+
+	
+}
+
+h3{
+	text-align: center;
+	color: white;
+	font-family: 'Pacifico', cursive;
+	outline: 5px dotted orange;
+	filter: blur(3px);
+}
+
+h4{
+	transform: rotateY(60deg);
+    text-shadow: 2px 2px white;
+    text-align: left;
+
+
+}
+
+.new-font{
+	font-family: 'Caveat', cursive;
+	color: #00bcd4;
+	background-color: #c57d96;
+}
+
+h5{
+	text-align: left;
+	transform: rotate(90deg);
+	opacity: 0.75;
+	font-size: 2em;
+	text-shadow: 5px 5px pink;
+
+	
+}
+
