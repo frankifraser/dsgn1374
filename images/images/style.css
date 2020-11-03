@@ -1,0 +1,61 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background: rgb(17,7,16);
+background: radial-gradient(circle, rgba(17,7,16,1) 0%, rgba(121,9,68,1) 35%, rgba(7,112,134,1) 100%);
+	color: white;
+	font-family: font-family: 'Shadows Into Light', cursive;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+
+	
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 25%;
+	padding: 0.25em;
+	opacity: 85%;
+}
+
+p { opacity: 50%;
+	text-decoration: line-through;
+}
+
+h2 {
+	color: black;
+	font-family: 'Syne Mono', monospace;
+	text-shadow: 1px 1px white;
+	font-size: 2em;
+	
+}
+
+
+.glow {
+	border-radius: 50%;
+	border-style: dotted;
+	filter: drop-shadow(8px 8px 10px black);
+}
+
+.gloww {
+	border-style: dashed;
+}
+
+.hands {
+	filter: blur(2px);
+}
