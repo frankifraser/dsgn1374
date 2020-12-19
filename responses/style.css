@@ -1,0 +1,319 @@
+/* Responses */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: #eece9d;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 1em;
+	padding: 0;
+}
+
+img {
+	width: 60%;
+	height: 90%;
+	border-radius: 50%;
+	border: 5px double black;
+	
+}
+
+/* Images */
+.page {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+
+.photo {
+	width: 50%;
+	padding: 20px;
+}
+
+.layout {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.pic {
+	width: 33.33%;
+	padding: 5px;
+	margin-top: 1em;
+	
+
+}
+
+.page {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pix {
+	width: 33.33%;
+	padding: 5px;
+	margin-top: 1em;
+}
+
+
+
+/* Typography */
+
+h1 {
+	font-size: 5em;
+	text-shadow: 2px 2px #1aa99b;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 1em 0;
+}
+
+p {
+	margin: 0 0 1em 2em;
+	color: #1aa99b;
+	font-weight: bold;
+	font-size: 2em;
+}
+a {
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-decoration: none;
+	transition: all 0.3s;
+	margin: 80px 0 0 500px;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+
+}
+
+.button {
+	color: #eece9d;
+	font-size: 1em;
+	border: 3px solid teal;
+	border-radius: 2em;
+	padding: 0.30em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 45px 0 1em 20px;
+
+}
+
+.button:hover {
+	background-color: #1aa99b;
+	color: white;
+}
+
+.info {
+	font-size: 5em;
+	transform: rotate(20deg);
+	text-shadow: 5px 5px black;
+}
+
+.inf {
+	font-size: 8em;
+	transform: rotate(10deg);
+	color: white;
+	text-decoration:underline overline;
+	border: 5px dotted black;
+}
+
+.infoo {
+	font-size: 6em;
+	color: black;
+	text-shadow: 3px 3px teal;
+	transform: rotate(80deg);
+}
+
+.in {
+	font-size: 3em;
+	color: red;
+	text-decoration:overline;
+  text-decoration-style: wavy;
+}
+
+.infooo {
+	font-size: 2em;
+	color: white;
+    text-decoration: line-through black;
+}
+
+.hand {
+	font-style: oblique;
+	color: black;
+	text-shadow: 2px 2px #921241;
+	font-family: monospace;
+}
+
+.craft {
+	font-style: oblique;
+	color: white;
+	font-family: cursive;
+}
+
+.home {
+    font-style: oblique;
+	font-size: 3em;
+	color: #921241;
+    font-variant: small-caps;
+	text-shadow: 2px 2px white;
+}
+
+.story {
+	margin-top: 2em;
+	opacity: 50%;
+	transform: rotate(20deg);
+	margin-top: 4em;
+
+}
+
+.imp {
+	opacity: 50%;
+	transform: rotate(30deg);
+	margin-top: 2em;
+	font-weight: 200;
+
+}
+
+.uni {
+	opacity: 50%;
+	transform: rotate(50deg);
+	margin-top: 5em;
+	text-shadow: 2px 2px red;
+}
+
+.what {
+	width: 100px;
+  transition: width 2s;
+	margin-left: 2em;
+	color: #b3b1b1;
+	text-shadow: 3px 3px teal;
+	font-style: italic;
+}
+
+.how {
+	margin-top: 2em;
+	margin-left: 4em;
+	color: #eece9d;
+}
+
+.unique {
+	color: #921241;
+	text-shadow: 2px 2px #ffbf00;
+	text-decoration: underline overline;
+	font-size: 4em;
+}
+
+.inspire {
+	font-weight: normal;
+	text-decoration: underline wavy;
+
+}
+
+.express {
+	color: white;
+	font-size: 5em;
+	transform: rotate(100deg);
+	text-decoration: line-through teal;
+	text-shadow: 1px 1px black;
+	filter: drop-shadow(8px 8px 8px white);
+}
+
+.creative {
+	font-weight: 100;
+	color: #921241;
+	border: dotted black;
+	font-size: 8em;
+	font-family: fantasy;
+	filter: blur(1px);
+}
+
+.exp {
+	font-size: 3em;
+	font-family: monospace;
+	filter: drop-shadow(8px 8px 10px teal);
+	text-decoration: underline overline black;
+	transform: rotate(150deg);
+
+
+}
+
+
+
+/* Page specific */
+
+
+.handmade {
+	background-color: #eece9d;
+}
+
+.handmade h1 {
+	color: black;
+	font-weight: bold;
+	text-shadow: 2px 2px white;
+
+}
+
+
+
+.goblet {
+	background-color: #eece9d;
+
+}
+
+.goblet h1 {
+	color: black;
+	font-weight: bold;
+	text-shadow: 2px 2px white;
+	margin-right: 40px;
+
+}
+.goblet p {
+	color: #1aa99b
+	font-size: 5em;
+}
+
+
+
+
+
+
+/* Grid */
+
+.grid {
+	display: grid;
+	grid-template-columns: 100%;
+	align-content: top;
+	margin-top: 40px;
+	margin-left: 20px;
+	min-height: 100vh;
+}
+
+.items {
+	padding: 0.5em;
+}
+
+@media (min-width: 40em) {
+	.grid {
+		grid-template-columns: 50% 50%;
+	}
+}
