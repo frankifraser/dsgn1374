@@ -1,0 +1,146 @@
+/* LIGHT AND DARK EXPERIMENT */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: normal;
+  color: #ff8c1a;
+  background-color: #e6ffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+section {
+  padding: 5em 0.5em;
+}
+
+p {
+  font-style: italic;
+  text-shadow: 2px 2px 5px;
+
+}
+
+h1 {
+  text-shadow: 2px 2px #ff5050;
+  font-size: 40px
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+/* BUTTON */
+
+.button {
+  color: inherit;
+  text-decoration: none;
+  border: 4px dotted;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #ff5050;
+  color: #ffff99;
+
+}
+
+/* CARD */
+.card {
+  border: double 10px;
+  border-radius: 1em;
+  transition: all 0.3s;
+  box-shadow: -2px 2px 2px rgba(0,0,0,0);
+  transition: box-shadow 0.5s; 
+  overflow: hidden;
+}
+
+
+
+
+.card-text {
+  padding: 0.5em
+}
+
+.card-img {
+  filter: grayscale(2);
+  transition: all 0.5s;
+}
+
+.card-link {
+  padding: 0 0.5em 2em 0.5em;
+  display: block;
+  text-transform: uppercase;
+  color: #ff5050;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+
+.card:hover {
+  box-shadow: -2px 2px 2px rgba(0,0,0,0.5);
+  overflow: hidden; 
+}
+
+
+.card:hover .card-img {
+  filter: grayscale(0);
+  overflow: hidden;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 30em) {
+  .grid {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    color: #ffe6cc;
+    background-color: #003333;
+  }
+
+  .button:hover {
+  background-color: #ffff99;
+  color: #ff5050;
+
+}
+
+  .card {
+    box-shadow: -2px 2px 2px rgba(255,255,255,0); 
+  }
+
+  .card:hover {
+    box-shadow: -2px 2px 2px rgba(255,255,255,0.5);
+
+
+  }
+
+}
